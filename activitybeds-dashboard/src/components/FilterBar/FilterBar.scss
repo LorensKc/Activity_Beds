@@ -1,0 +1,40 @@
+/* src/components/FilterBar.css */
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+
+    select {
+        flex-grow: 1;
+        min-width: 150px;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid var(--border-color);
+        background-color: #333;
+        color: var(--text-secondary);
+    }
+}
+
+.apply-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px 20px;
+}
+
+.filters-button {
+    background-color: #444;
+    color: var(--text-secondary);
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    &:hover {
+        background-color: #555;
+        color: #fff;
+    }
+}
+
+.filter-icon {
+    font-size: 0.9em;
+}

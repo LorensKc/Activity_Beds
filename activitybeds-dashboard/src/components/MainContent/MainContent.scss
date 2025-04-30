@@ -1,0 +1,22 @@
+/* src/components/MainContent.css */
+.main-content {
+    flex-grow: 1;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.main-content-inner {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.main-content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid var(--border-color);
+    background-color: #2a2a2a;
+}

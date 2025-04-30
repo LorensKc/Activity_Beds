@@ -1,0 +1,98 @@
+/* src/components/BookingRow.css */
+.initial-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+
+    &.initial-m {
+        background-color: var(--icon-bg-blue);
+    }
+    &.initial-a {
+        background-color: var(--icon-bg-purple);
+    }
+
+}
+
+.agent-name {
+    font-weight: 500;
+}
+
+.acc-manager {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+}
+
+.api-icon {
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.booking-id {
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.booking-id:hover {
+    text-decoration: underline;
+}
+
+.pax-name {
+    font-weight: 500;
+}
+
+.pax-details {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+}
+
+.product-icon {
+    font-size: 1.3em;
+
+    &.icon-boat {
+        color: #17a2b8;
+    }
+
+    &.icon-car {
+        color: #ffc107;
+    }
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+
+    &.status-confirmed {
+        background-color: var(--status-confirmed);
+    }
+    &.status-cancelled {
+        background-color: var(--status-cancelled);
+    }
+    &.status-vouchered {
+        background-color: var(--status-vouchered);
+    }
+    &.status-travelled {
+        background-color: var(--status-travelled);
+    }
+}
+
