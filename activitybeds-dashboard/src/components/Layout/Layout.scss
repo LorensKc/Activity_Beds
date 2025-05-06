@@ -1,5 +1,20 @@
+.layout-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    // background-color: #f8f9fa;
+}
+
 .layout-container {
     display: flex;
-    min-height: 100vh;
-    /* На всю висоту екрану */
+    flex: 1;
+    overflow: hidden;
+}
+
+.layout-content {
+    flex: 1;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }

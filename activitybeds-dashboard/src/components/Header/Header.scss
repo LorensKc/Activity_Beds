@@ -1,10 +1,10 @@
-/* src/components/Header.css (Updated) */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    padding-bottom: 15px;
+    padding: 0 20px;
+    height: 60px;
     border-bottom: 1px solid var(--border-color);
 }
 

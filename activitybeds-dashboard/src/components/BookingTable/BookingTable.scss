@@ -1,12 +1,13 @@
 /* src/components/BookingTable.css */
-.table-container {
-    overflow-x: auto;
+.table-scroll-container {
+    overflow-y: auto;
+    flex: 1;
+    max-height: 300px;
 }
 
 .booking-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
     font-size: 0.9em;
     min-width: 1200px;
 

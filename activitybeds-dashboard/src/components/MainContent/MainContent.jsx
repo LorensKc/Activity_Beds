@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Header/Header'
 import FilterBar from '../FilterBar/FilterBar'
 import BookingTable from '../BookingTable/BookingTable'
 import Pagination from '../Pagination/Pagination'
@@ -19,21 +18,32 @@ function MainContent() {
         { id: 10, initial: 'A', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Vouchered', city: 'Melbourne', nationality: 'Airp IGI'},
         { id: 11, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Travelled', city: 'Melbourne', nationality: 'Airp IGI'},
         { id: 12, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Travelled', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 11, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Confirmed', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 12, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Confirmed', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 13, initial: 'A', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', sourceIcon: true, bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Confirmed', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 14, initial: 'A', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', sourceIcon: true, bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Confirmed', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 15, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Cancelled', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 16, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Cancelled', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 17, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', sourceIcon: true, bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Vouchered', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 18, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', sourceIcon: true, bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Vouchered', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 19, initial: 'A', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Vouchered', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 20, initial: 'A', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'boat', status: 'Vouchered', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 21, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Travelled', city: 'Melbourne', nationality: 'Airp IGI'},
+        { id: 22, initial: 'M', agentName: 'ABC Pvt. Ltd.', accManager: 'Drishti Yadav', bookingSource: 'API', bookingId: 'AB_US_001', bookingDate: '03-02-2025', travelDate: '03-02-2025', leadPaxName: 'Rahul Sharma', paxDetails: '2A, 2C (4yrs, 8yrs)', productType: 'car', status: 'Travelled', city: 'Melbourne', nationality: 'Airp IGI'},
     ];
 
     const totalResults = 60;
 
     return (
-        <div className="main-content">
+        <>
+            <FilterBar />
             <div className="main-content-inner">
-                <Header />
-                <FilterBar />
                 <BookingTable bookings={sampleBookings}/>
             </div>
             <div className="main-content-footer">
                 <Pagination current={1} total={totalResults} perPage={sampleBookings.length} />
             </div>
-        </div>
+        </>
     )
 }
 
