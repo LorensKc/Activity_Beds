@@ -18,24 +18,20 @@ function BookingTable({bookings}) {
     ];
 
     return (
-        <>
+        <div className="table-wrapper">
             <table className="booking-table">
                 <thead>
                     <tr>
                         {headers.map(header => <th key={header.id}>{header.label}</th>)}
                     </tr>
                 </thead>
-            </table>
-            <div className="table-scroll-container">
-                <table className="booking-table">
-                    <tbody>
+                <tbody>
                     {bookings.map(booking =>(
                         <BookingRow key={booking.id} booking={booking}/>
                     ))}
                 </tbody>
-                </table>
-            </div>
-        </>
+            </table>
+        </div>
 
     )
 }

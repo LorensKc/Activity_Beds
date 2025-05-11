@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    // background-color: #f8f9fa;
 }
 
 .layout-container {
@@ -13,8 +12,9 @@
 
 .layout-content {
     flex: 1;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: #333;
 }
